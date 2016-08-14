@@ -46,7 +46,7 @@ body {
 /* About */
 
 .about-img-box {
-    margin-top: 20px;
+    margin-top: 40px;
     width: 100%;
     height: 400px;
     overflow: hidden;
@@ -64,9 +64,49 @@ body {
 }
 
 .about-text-box {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .about-text {
     padding-top: 10px;
+}
+
+
+/* Quote */
+
+.quote-container {
+    margin-top: 40px;
+    width: 100%;
+    height: 270px;
+    text-align: center;
+}
+
+.quote-bg {
+    background: url('/img/Style/DaVinci.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0 30%;
+}
+
+.quote-text {
+    font-family: "Georgia", Georgia, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    padding-top: 110px;
+    text-shadow: 2px 2px 20px white;
+}
+
+.quote-author {
+    font-family: "Georgia", Georgia, serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: black;
+    margin: 0;
+    margin-left: 20%;
+    text-shadow: 2px 2px 10px white;
 }
