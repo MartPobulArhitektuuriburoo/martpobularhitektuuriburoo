@@ -125,7 +125,7 @@ ul.nav a:hover {
 /* Services */
 
 .services-house {
-    color: dodgerblue;
+    color: dimgray;
     font-size: 250px;
     text-shadow: 1px 1px 1px #ccc;
 }
@@ -138,31 +138,73 @@ ul.nav a:hover {
     padding-top: 10px;
 }
 
-.slideanim {visibility:hidden;}
-  .slide {
-      animation-name: slide;
-      -webkit-animation-name: slide;
-      animation-duration: 2s;
-      -webkit-animation-duration: 2s;
-      visibility: visible;
-  }
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
+
+/* Portfolio */
+
+.portfolio-title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.carousel-img-box {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.carousel-img {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.small-control {
+    height: 200px;
+}
+
+
+/* Footer */
+
+.footer-navbar {
+    margin-top: 20px;
+}
+
+.footer-col {
+    text-align: center;
+}
+
+.footer-text-col {
+    margin-top: 10px;
+}
+
+.footer-text {
+    color: dimgray;
+}
+
+.footer-icon {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.back-to-top {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+
+/* Icons, e.g. Facebook, YouTube */
+
+.icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
