@@ -168,6 +168,29 @@ ul.nav a:hover {
 }
 
 
+/* Contact */
+
+.contact-header {
+    margin-top: 40px;
+}
+
+.lead {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.maps-box {
+    margin-top: 20px;
+}
+
+
 /* Footer */
 
 .footer-navbar {
