@@ -21,6 +21,7 @@ ul.nav a:hover {
     height: 100%;
     width: 100%;
     display: table;
+    margin-bottom: 40px;
 }
 .opening-screen-bg {
     background: url('/img/Style/OpeningScreen.jpg') no-repeat center;
@@ -57,7 +58,8 @@ ul.nav a:hover {
 /* About */
 
 .about-img-box {
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     width: 100%;
     height: 400px;
     overflow: hidden;
@@ -73,7 +75,8 @@ ul.nav a:hover {
     width: 100%;
 }
 .about-text-box {
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 .about-text {
     padding-top: 10px;
@@ -81,9 +84,11 @@ ul.nav a:hover {
 @media screen and (max-width: 767px) {
     .about-img-box {
         height: 250px;
+        margin-bottom: 15px;
     }
     .about-text-box {
-        margin-top: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .about-text-box > h1 {
         font-size: 30px;
@@ -101,7 +106,8 @@ ul.nav a:hover {
 /* Quote */
 
 .quote-container {
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     width: 100%;
     height: 270px;
     text-align: center;
@@ -134,9 +140,11 @@ ul.nav a:hover {
 }
 @media screen and (max-width: 767px) {
     .quote-container {
-        height: 250px;
+        height: 200px;
+        margin-bottom: 15px;
     }
     .quote-text {
+        padding-top: 80px;
         font-size: 21px;
     }
     .quote-author {
@@ -152,12 +160,16 @@ ul.nav a:hover {
     text-shadow: 1px 1px 1px #ccc;
 }
 .services-text-box {
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .services-text {
     padding-top: 10px;
 }
 @media screen and (max-width: 767px) {
+    .services-text-box {
+        margin-bottom: 15px;
+    }
     .services-text-box > h1 {
         font-size: 30px;
     }
@@ -177,7 +189,7 @@ ul.nav a:hover {
 /* Portfolio */
 
 .portfolio-title {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 .carousel-img-box {
@@ -247,6 +259,9 @@ ul.nav a:hover {
 @media screen and (max-width: 767px) {
     .contact-header > h1 {
         font-size: 30px;
+    }
+    .lead {
+        font-size: 17px;
     }
 }
 
