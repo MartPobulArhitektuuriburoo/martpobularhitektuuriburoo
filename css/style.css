@@ -8,14 +8,12 @@ body {
 
 /* Navbar */
 
-ul.nav a:link { 
+ul.nav a:link {
     color: dimgray !important;
 }
-
-ul.nav a:hover { 
+ul.nav a:hover {
     color: darkgray !important;
 }
-
 
 /* Opening screen */
 
@@ -24,35 +22,37 @@ ul.nav a:hover {
     width: 100%;
     display: table;
 }
-
 .opening-screen-bg {
-    background: url('/img/Style/OpeningScreen.jpg') no-repeat center center fixed;
+    background: url('/img/Style/OpeningScreen.jpg') no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 .header-row {
     display: table-row;
     height: 100%;
     width: 100%;
 }
-
 .header-cell {
     display: table-cell;
     vertical-align: middle;
 }
-
 .opening-screen-logo {
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 600px;
 }
-
 .opening-screen-col {
     text-align: center;
 }
-
+@media screen and (max-width: 767px) {
+    .opening-screen-logo {
+        width: 300px;
+    }
+    .opening-screen-container {
+        height: 500px;
+    }
+}
 
 /* About */
 
@@ -62,7 +62,6 @@ ul.nav a:hover {
     height: 400px;
     overflow: hidden;
 }
-
 .about-img {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -73,15 +72,31 @@ ul.nav a:hover {
     height: 100%;
     width: 100%;
 }
-
 .about-text-box {
     margin-top: 40px;
 }
-
 .about-text {
     padding-top: 10px;
 }
-
+@media screen and (max-width: 767px) {
+    .about-img-box {
+        height: 250px;
+    }
+    .about-text-box {
+        margin-top: 20px;
+    }
+    .about-text-box > h1 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .about-text {
+        font-size: 14px;
+    }
+    .about-text > h5 {
+        font-size: 15px;
+    }
+}
 
 /* Quote */
 
@@ -91,7 +106,6 @@ ul.nav a:hover {
     height: 270px;
     text-align: center;
 }
-
 .quote-bg {
     background: url('/img/Style/DaVinci.jpg') no-repeat center center;
     -webkit-background-size: cover;
@@ -100,7 +114,6 @@ ul.nav a:hover {
     background-size: cover;
     background-position: 0 30%;
 }
-
 .quote-text {
     font-family: "Georgia", Georgia, serif;
     font-style: italic;
@@ -109,7 +122,6 @@ ul.nav a:hover {
     color: black;
     padding-top: 110px;
 }
-
 .quote-author {
     font-family: "Georgia", Georgia, serif;
     font-weight: normal;
@@ -120,7 +132,17 @@ ul.nav a:hover {
     margin-left: 20%;
     text-shadow: 2px 2px 10px white;
 }
-
+@media screen and (max-width: 767px) {
+    .quote-container {
+        height: 250px;
+    }
+    .quote-text {
+        font-size: 21px;
+    }
+    .quote-author {
+        font-size: 15px;
+    }
+}
 
 /* Services */
 
@@ -129,15 +151,28 @@ ul.nav a:hover {
     font-size: 250px;
     text-shadow: 1px 1px 1px #ccc;
 }
-
 .services-text-box {
     margin-top: 40px;
 }
-
 .services-text {
     padding-top: 10px;
 }
-
+@media screen and (max-width: 767px) {
+    .services-text-box > h1 {
+        font-size: 30px;
+    }
+    .services-house {
+        display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    .services-text {
+        font-size: 14px;
+    }
+    .services-text > h5 {
+        font-size: 15px;
+    }
+}
 
 /* Portfolio */
 
@@ -145,13 +180,11 @@ ul.nav a:hover {
     margin-top: 40px;
     margin-bottom: 30px;
 }
-
 .carousel-img-box {
     width: 100%;
     height: 200px;
     overflow: hidden;
 }
-
 .carousel-img {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -162,67 +195,87 @@ ul.nav a:hover {
     height: 100%;
     width: 100%;
 }
-
 .small-control {
     height: 200px;
 }
-
+.portfolio-text {
+    font-size: 20px;
+}
+.portfolio-row {
+    margin-top: 30px;
+}
+@media screen and (max-width: 767px) {
+    .portfolio-title > h1 {
+        font-size: 30px;
+    }
+    .carousel-img-box {
+        height: 180px;
+    }
+    .small-control {
+        height: 180px;
+    }
+    .portfolio-text {
+        font-size: 15px;
+    }
+    .portfolio-row {
+        margin-top: 0;
+    }
+}
 
 /* Contact */
 
+.contact-col {
+    margin-left: 18px;
+    margin-right: 18px;
+}
 .contact-header {
     margin-top: 40px;
 }
-
 .lead {
     padding-top: 10px;
     padding-bottom: 20px;
 }
-
 .btn-send {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin-bottom: 20px;
 }
-
 .maps-box {
     margin-top: 20px;
 }
-
+@media screen and (max-width: 767px) {
+    .contact-header > h1 {
+        font-size: 30px;
+    }
+}
 
 /* Footer */
 
 .footer-navbar {
     margin-top: 20px;
 }
-
 .footer-col {
     text-align: center;
 }
-
 .footer-text-col {
     margin-top: 10px;
 }
-
 .footer-text {
     color: dimgray;
 }
-
 .footer-icon {
     margin: 0;
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
-
 .back-to-top {
     display: block;
     margin: 0 auto;
     height: 100%;
     width: auto;
 }
-
 
 /* Icons, e.g. Facebook, YouTube */
 
