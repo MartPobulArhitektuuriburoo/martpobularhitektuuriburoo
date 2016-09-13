@@ -29,6 +29,7 @@ ul.nav a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative !important;
 }
 .header-row {
     display: table-row;
