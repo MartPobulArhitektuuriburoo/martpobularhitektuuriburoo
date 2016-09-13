@@ -17,7 +17,10 @@ $(function () {
 
 // Hide collapsed navbar's extended menu after a click.
 $(document).ready(function () {
-  $(".navbar-nav li a").click(function(event) {
-    $(".collapse").collapse('hide');
-  });
+    $(".navbar-nav li a").click(function (event) {
+        $(".collapse").collapse('hide');
+    });
+    $(".navbar-toggleable-xs a").click(function (event) {
+        $(".collapse").collapse('hide');
+    });
 });
