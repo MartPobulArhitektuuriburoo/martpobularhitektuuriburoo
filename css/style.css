@@ -24,7 +24,7 @@ ul.nav a:hover {
     margin-bottom: 40px;
 }
 .opening-screen-bg {
-    background: url('/img/Style/OpeningScreen.jpg') no-repeat center;
+    background: url('/img/Style/OpeningScreen.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
