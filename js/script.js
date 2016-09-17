@@ -1,3 +1,8 @@
+/*
+    Created by Joonas Palm
+    © Mart Pobul - All rights reserved
+*/
+
 // Function for smooth scrolling on the page, when a navigation link is clicked.
 $(function () {
     $('a[href*="#"]:not([href="#"],[href^="#carousel"])').click(function () {
