@@ -1,3 +1,9 @@
+/*
+    Created by Joonas Palm
+    © Mart Pobul - All rights reserved
+*/
+
+
 /* Content full screen */
 
 html,
@@ -14,6 +20,21 @@ ul.nav a:link {
 ul.nav a:hover {
     color: darkgray !important;
 }
+.navbar-light .navbar-brand {
+    color: black;
+}
+.navbar-light .navbar-brand:hover {
+    color: dimgray !important;
+}
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        margin-top: 3px;
+        font-size: 15px;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+}
 
 /* Opening screen */
 
@@ -24,7 +45,7 @@ ul.nav a:hover {
     margin-bottom: 40px;
 }
 .opening-screen-bg {
-    background: url('/img/Style/OpeningScreen.jpg') no-repeat center center;
+    background: url('/img/Style/OpeningScreen.jpg') no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -155,30 +176,48 @@ ul.nav a:hover {
 
 /* Services */
 
-.services-house {
-    color: dimgray;
-    font-size: 250px;
-    text-shadow: 1px 1px 1px #ccc;
+.services-container {
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
-.services-text-box {
-    margin-top: 30px;
-    margin-bottom: 30px;
+.services-title {
+    text-align: center;
+}
+.services-logo {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: royalblue;
+    text-shadow: 1px 1px 1px #ccc;
+    text-align: center;
+}
+.services-logo > i {
+    font-size: 200px;
+}
+.services-border-left {
+    border-right-width: 1px;
+    border-right-color: lightgrey;
+    border-right-style: solid;
 }
 .services-text {
     padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 @media screen and (max-width: 767px) {
-    .services-text-box {
-        margin-bottom: 15px;
+    .services-border-left {
+        border-right-width: 0;
     }
-    .services-text-box > h1 {
-        font-size: 30px;
-    }
-    .services-house {
-        display: none;
+    .fa-pencil-square-o {
+        margin-left: 20px;
     }
 }
 @media screen and (max-width: 991px) {
+    .services-title > h1 {
+        font-size: 30px;
+    }
+    .services-logo > i {
+        font-size: 150px;
+    }
     .services-text {
         font-size: 14px;
     }
@@ -189,6 +228,9 @@ ul.nav a:hover {
 
 /* Portfolio */
 
+.portfolio-bg {
+    background-color: rgba(0, 0, 0, .075);
+}
 .portfolio-title {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -281,22 +323,12 @@ ul.nav a:hover {
     color: dimgray;
 }
 .footer-icon {
-    margin: 0;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 13px;
+    color: royalblue;
 }
-.back-to-top {
-    display: block;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
+.footer-icon > i {
+    font-size: 25px;
 }
-
-/* Icons, e.g. Facebook, YouTube */
-
-.icon {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
+.footer-icon > i:hover {
+    color: lightskyblue;
 }
