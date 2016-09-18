@@ -1,15 +1,14 @@
 <?php
 
 // configure
-$from = 'moongoldproductions@gmail.com'; 
-$sendTo = 'moongoldproductions@gmail.com';
+$from = 'mart.pobul@gmail.com'; 
+$sendTo = 'mart.pobul@gmail.com';
 $subject = 'Uus kiri veebilehelt';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
-$okMessage = 'Teie kiri saadeti edukalt edasi. Täname ning võtame peagi Teiega ühendust!';
+$okMessage = 'Teie kiri saadeti edukalt edasi. Tänan ning võtan peagi Teiega ühendust!';
 $errorMessage = 'Tekkis viga Teie kirja edastamisel. Palun proovige hiljem uuesti.';
 
 // let's do the sending
-
 try
 {
     $emailText = "Uus kiri veebilehelt\n=============================\n";
