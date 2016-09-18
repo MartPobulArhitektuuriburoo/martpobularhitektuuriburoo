@@ -1,6 +1,6 @@
 /*
     Created by Joonas Palm
-    © Mart Pobul - All rights reserved
+    © Mart Pobul 2016 - All rights reserved
 */
 
 
@@ -23,8 +23,8 @@ ul.nav a:hover {
 .navbar-light .navbar-brand {
     color: black;
 }
-.navbar-light .navbar-brand:hover {
-    color: dimgray !important;
+.brand-1 {
+    color: royalblue;
 }
 @media screen and (max-width: 767px) {
     .navbar-brand {
@@ -64,6 +64,7 @@ ul.nav a:hover {
 .opening-screen-logo {
     height: auto;
     width: 600px;
+    color: royalblue;
 }
 .opening-screen-col {
     text-align: center;
@@ -193,6 +194,9 @@ ul.nav a:hover {
 .services-logo > i {
     font-size: 200px;
 }
+.fa-pencil-square-o {
+    margin-left: 25px;
+}
 .services-border-left {
     border-right-width: 1px;
     border-right-color: lightgrey;
@@ -206,9 +210,6 @@ ul.nav a:hover {
 @media screen and (max-width: 767px) {
     .services-border-left {
         border-right-width: 0;
-    }
-    .fa-pencil-square-o {
-        margin-left: 20px;
     }
 }
 @media screen and (max-width: 991px) {
@@ -289,6 +290,7 @@ ul.nav a:hover {
 .lead {
     padding-top: 10px;
     padding-bottom: 20px;
+    color: royalblue;
 }
 .btn-send {
     font-weight: 300;
@@ -330,5 +332,5 @@ ul.nav a:hover {
     font-size: 25px;
 }
 .footer-icon > i:hover {
-    color: lightskyblue;
+    color: powderblue;
 }

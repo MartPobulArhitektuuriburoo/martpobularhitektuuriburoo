@@ -1,6 +1,6 @@
 /*
     Created by Joonas Palm
-    © Mart Pobul - All rights reserved
+    © Mart Pobul 2016 - All rights reserved
 */
 
 // Function for smooth scrolling on the page, when a navigation link is clicked.
