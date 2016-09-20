@@ -42,7 +42,6 @@ ul.nav a:hover {
     height: 100%;
     width: 100%;
     display: table;
-    margin-bottom: 40px;
 }
 .opening-screen-bg {
     background: url('/img/Style/OpeningScreen.jpg') no-repeat center;
@@ -80,6 +79,11 @@ ul.nav a:hover {
 
 /* About */
 
+.about-bg {
+    background-color: rgba(0, 0, 0, .075);
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
 .about-img-box {
     margin-top: 30px;
     margin-bottom: 40px;
@@ -129,7 +133,6 @@ ul.nav a:hover {
 /* Quote */
 
 .quote-container {
-    margin-top: 30px;
     margin-bottom: 40px;
     width: 100%;
     height: 270px;
